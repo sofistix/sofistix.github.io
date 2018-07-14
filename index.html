@@ -1,0 +1,726 @@
+ <!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+    <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  	<link rel="manifest" href="favicons/site.webmanifest">
+  	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  	<meta name="msapplication-TileColor" content="#da532c">
+  	<meta name="theme-color" content="#ffffff">
+
+    <title>Sofistix</title>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" onload="typeWriter()">
+
+  	<!-- Navigation Bar -->
+  	<nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+         <a class="navbar-brand" href="#"><img class="sofistixLogo" src="imgs/SofistixLogo.png"></a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+           <span class="navbar-toggler-icon small"></span>
+         </button>
+         <div class="collapse navbar-collapse navbar-right" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+         </div>
+  	</nav>
+  	<!-- Navigation Bar End -->
+
+	<!-- Header -->
+  	<div class="container-fluid headerBG" id="home">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+  	       <p class="lead headerTxt" id="demo"></p>
+        </div>
+        <div class="d-none d-md-block col-md-4 col-lg-4 col-xl-4">
+           <img class="codeLogo" src="imgs/comp.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+         <h1 class="lead">Softisticated solutions for all your software, web, database, and tech needs.</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Services -->
+  	<div class="container-fluid" id="services">
+     <h1 class="text-center">Services</h1>
+     <hr>
+  		<div class="row text-center sideSpacing">
+  		<div class="col-md-4 serviceBotColSpacing">
+          <i class="fas fa-code fa-5x"></i>
+          <div class="card-body">
+          <h5 class="card-title">Programming</h5>
+          <p class="card-text">With the understanding of multiple programming languages, we can help design a solution for all your in house programs.</p>
+        </div>
+         <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#progModal">More</button>
+      </div>
+  		<div class="col-md-4 serviceBotColSpacing">
+        <i class="fab fa-html5 fa-5x"></i>
+          <div class="card-body">
+          <h5 class="card-title">Websites</h5>
+          <p class="card-text">Need a website or portfolio? We can help you create one with HTML5 and CSS.</p>
+          </div>
+          <br>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webModal">More</button>
+      	</div>
+  		<div class="col-md-4 serviceBotColSpacing">
+         <i class="fas fa-database fa-5x"></i>
+          <div class="card-body">
+          <h5 class="card-title">Databases</h5>
+          <p class="card-text">We can help with your data acquisition. We setup databases and can help you manage them.</p>
+          </div>
+        	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dbModal">More</button>
+      	</div>
+  		</div>
+  		<div class="spacing"></div>
+       	 <div class="row text-center sideSpacing">
+          <div class="col-md-4 serviceBotColSpacing">
+            <center><i class="fab fa-app-store fa-5x"></i></center>
+              <div class="card-body">
+              <h5 class="card-title">Applications</h5>
+              <p class="card-text">Mobile applications help you reach more people since many people carry their devices on them at all times.</p>
+             </div>
+                <br>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#appModal">More</button>
+          </div>
+          <div class="col-md-4 serviceBotColSpacing">
+            <center><i class="far fa-handshake fa-5x"></i></center>
+              <div class="card-body">
+              <h5 class="card-title">Consulting</h5>
+              <p class="card-text">Many years of experience in field gives us the ability to consult personally or with a team of people about programming and proper management skills.</p>
+             </div>
+              <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#consultModal">More</button>
+          </div>
+          <div class="col-md-4 serviceBotColSpacing">
+            <center><i class="fab fa-linux fa-5x"></i></center>
+              <div class="card-body">
+              <h5 class="card-title">Linux</h5>
+              <p class="card-text">Got Linux needs? We can help from writing drivers to basic/advanced training.</p>
+             </div>
+              <br>
+              <br>
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#linuxModal">More</button>
+          </div>
+        </div>
+	</div>
+	<!-- Services End -->
+	<div class="spacing"></div>
+
+	<!-- Portfolio -->
+  <div class="container-fluid">
+    <div class="jumbotron" id="portfolio">
+      <h1 class="portInline text-left">Portfolio<p class="lead">Check out our latest projects</p></h1>
+      <hr>
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="list-group list-group-flush" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action" id="list-p1-list" data-toggle="list" href="#list-p1" role="tab" aria-controls="Project 1">Getting Started</a>
+              <a class="list-group-item list-group-item-action active" id="list-p2-list" data-toggle="list" href="#list-p2" role="tab" aria-controls="Project 2">Server Status</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="tab-content portfolioContent" id="nav-tabContent">
+              <div class="tab-pane fade " id="list-p1" role="tabpanel" aria-labelledby="list-p1-list">
+              Since we're just getting started with Sofistix, we're offering free programming and/or consulting for potentional clients.  Take advantage of this opportunity and email us today about one of our services. We'll be selecting a few submittions and contacting our new clients about potentially working on their submitted project for free.
+              <br><br>
+              Just give us a brief description of the project and what company you're with.  Also include what service(s) you'll need from us.
+              </div>
+              <div class="tab-pane fade  show active" id="list-p2" role="tabpanel" aria-labelledby="list-p2-list">
+              	We wrote a server status page for a community web site/forum for a popular game called Knight Online.  We developed a script that would send packets down to the official servers and the servers would respond with reply packet data.  We then parsed this data for specific information that we needed.<br><br>We got information such as: how many players were online, which servers were online, how many users could the servers potentially hold, and much more.<br><br>For this project, we used Perl for its incredible parsing ability and easy TCP/IP socket communication setup. We created the frontend using the Mojolicious framework, HTML5, and Javascript. Then we set up a linux server with Perl installed and ran Mojolicious.
+              	<center>
+              	<div class="card" style="width: 30rem; margin-top: 1rem;">
+        					<img class="mw-100" src="imgs/serverStatus.png" alt="Server Status">
+        				</div>
+				        </center>
+             </div>
+              <div class="tab-pane fade" id="list-p3" role="tabpanel" aria-labelledby="list-p3-list">...</div>
+              <div class="tab-pane fade" id="list-p4" role="tabpanel" aria-labelledby="list-p4-list">...</div>
+              <div class="tab-pane fade" id="list-p5" role="tabpanel" aria-labelledby="list-p5-list">...</div>
+              <div class="tab-pane fade" id="list-p6" role="tabpanel" aria-labelledby="list-p6-list">...</div>
+              <div class="tab-pane fade" id="list-p7" role="tabpanel" aria-labelledby="list-p7-list">...</div>
+              <div class="tab-pane fade" id="list-p8" role="tabpanel" aria-labelledby="list-p8-list">...</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+        <!-- Portfolio End -->
+
+        <!-- About Us -->
+        <div class="container-fluid" id="aboutus">
+            <div class="row">
+              <div class="col-md-8 col-sm-12">
+                <h1 class="portInline text-left">About Us<p class="lead">Who Are We?</p></h1>
+                <hr>
+                <div class="container-fluid">
+                  <p class="lead">We're a small software company owned by a partnership. We strive to produce custom tailored solutions for your software needs.  Throughout our 10+ years of experience in the controls programming and web development, we've preformed work all over the programming spectrum from embedded systems programming to frontend design.</p>
+
+                  <p class="text-muted">No project is too small or big for us.  We've managed groups of people and numerous projects that were both in office and in the field with our past professions.  Know that you have degreed professionals working for you with Software Engineering and Electrical Engineering degrees.  We are constantly learning new and improved methods of programming and keeping up with the latest in technology.</p>
+
+                  <p class="text-muted">Let us bring our expertise to your team as consultants or let us start on a brand new project from you.  Don't worry, we don't sell cookie cutter services. Instead we custom create the software and focus on integrating our software around your business.  Feel free to email us or give us a call for more information.</p>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-12 aboutUsPadding"> 
+                <center>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Media</h5>
+                      <p class="card-text">Follow us on various different platforms of social media.<br><br>
+                      <i class="fab fa-twitter-square fa-4x"></i>
+                      <i class="fab fa-google-plus fa-4x"></i>
+                      <i class="fab fa-linkedin fa-4x"></i>
+                      </p>
+                    </div>
+                  </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Text Us!</h5>
+                      <p class="card-text">Got questions? Start a conversation and text us!
+                      <i class="fa fa-comment fa-4x"></i>
+                      </p>
+                      <a href="sms:1-314-384-9402">(314) 384-9402</a>
+                    </div>
+                  </div>
+
+                </center>
+              </div>
+            </div>
+        </div>
+        <!-- About Us End-->
+        <div class="spacing"></div>
+
+        <!-- Contact Us -->
+        <div class="jumbotron" id="contactus">
+          <h1 class="portInline text-right">Contact Us<p class="lead">Questions & Support</p></h1>
+          <hr>
+        <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card w-100 h-100">
+            <div class="card-body">
+              <h5 class="card-title">Contact Info</h5>
+              <p class="card-text">Got questions about our services or need support?<br>Contact us 8-5PM: Monday-Friday by phone. <br>Text us, or email us at anytime.</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                  <input type="email" class="form-control" id="userName" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Department</label>
+                  <select class="form-control" id="depSelect">
+                    <option>Sales</option>
+                    <option>Services</option>
+                    <option>Support</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="msgBody" rows="5"></textarea>
+                </div>
+              </form>
+              <div class="container-fluid text-center">
+                <div class="row pull-right"><i class="far fa-envelope fa-3x"></i><h5 class="contactTxtPadding"><a href="#!" onclick="sendEmail()">Email Us</a></h5></div>
+                <div class="row pull-right"><i class="fas fa-phone fa-3x"></i><h5 class="contactTxtPadding"><a href="sms:1-314-384-9402">(314) 384-9402</a></h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="card w-100 h-100">
+            <div class="card-body">
+              <h5 class="card-title" id="faqs">FAQs</h5>
+              <p class="card-text">Frequently asked questions? Maybe we already have the answer.</p>
+
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What does pricing look like?
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Our pricing structure is based on an hourly rate.  We charge $125/hour and $75 per change order.  What does a change order mean?  Let's say that we've worked on previous project for you.  If we had to revisit the project after it was completed initally to add more to the software, we'd charge you a fee.<br><br>The reason for the fee is because it takes a lot of preperation for a project and understanding what your needs are. Considering we have multiple projects, it becomes difficult to revisit and start without proper preperation and time.  However, we do offer free consultation for new projects to define scope and terms.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Can you collabrate with our existing team?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Yes, we can collabrate with an already existing team.  We offer services where we can work with your team directly to answer questions and help complete projects on time. We also offer in-office consultation visits in the St. Louis area. Email us about consulation today.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Do you do buisness internationally?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Currently our focus is within the United States with a plan to expand our buisness to other territories.
+                    </div>
+                  </div>
+                  <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        I'm not sure where to start.
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Got a software project/idea and don't know where to even start? We can still help.  Email us or give us a call and explain what goal you're trying to accomplish with the software and we'll give you free advice on the way we'd approach the project.  It's exciting to start a project but sometimes it can also be intimidating.  Let our confidence and expertise help you get started.
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <!-- Contact Us -->
+
+      <!-- Footer -->
+      <footer class="page-footer font-small mdb-color pt-4 mt-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Newsletter</h6>
+              <p>Sign up for our newsletter today!</p>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
+                </div>
+              <div class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Submit</div>
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Placeholder</h6>
+              <p><a href="#services">Services</a></p>
+              <p><a href="#portfolio">Portfolio</a></p>
+              <p><a href="#aboutus">About Us</a></p>
+              <p><a href="#contactus">Contact Us</a></p>
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+              <p><a href="" data-toggle="modal" data-target="#affiliatesModal">Affiliates</a></p>
+              <p><a href="" data-toggle="modal" data-target="#jobsModal">Jobs</a></p>
+              <p><a href="" data-toggle="modal" data-target="#helpModal">Help</a></p>
+              <p><a href="#faqs">FAQs</a></p>
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fa fa-home mr-3"></i> St. Louis, MO 63043, USA</p>
+              <p><i class="fa fa-envelope mr-3"></i> sales@mail.sofistix.com</p>
+              <p><i class="fa fa-phone mr-3"></i><a href="sms:1-314-384-9402">(314) 384-9402</a></p>
+              <p><i class="fa fa-comment mr-3"></i><a href="sms:1-314-384-9402">(314) 384-9402</a></p>
+            </div>
+          </div>
+          <hr>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-8 col-lg-8">
+              <p class="text-center text-md-left">© 2018 Copyright: <a href="http://sofistix.com"><strong> Sofistix.com</strong></a></p>
+
+            </div>
+            <div class="col-md-4 col-lg-4 ml-lg-0">
+              <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+
+    <!-- Beginning of Modals -->
+    <!-- Programming Modal -->
+    <div class="modal fade" id="progModal" tabindex="-1" role="dialog" aria-labelledby="progModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="progModalLabel">Programming</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> We can help you build a brand new program for your business, edit an existing one, or work alongside other vendors to create an all-around solution to your needs.<br><br> Below are the various programming languages we support and program with. </p>
+            <ul class="list">
+              <li class="list-item">C</li>
+              <li class="list-item">C++</li>
+              <li class="list-item">Perl</li>
+              <li class="list-item">Javascript</li>
+              <li class="list-item">VB</li>
+              <li class="list-item">VBA</li>
+              <li class="list-item">VBScript</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Email Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Programming Modal End -->
+
+    <!-- Web Modal -->
+    <div class="modal fade" id="webModal" tabindex="-1" role="dialog" aria-labelledby="webModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="webModalLabel">Websites</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> Do you need help sprucing up an existing website or creating a brand new one for your business?  Let us design and program your website and make it stand out from the rest.<br><br> We use some of the following languages to program your website and give you a custom look.</p>
+            <ul class="list">
+              <li class="list-item">HTML5</li>
+              <li class="list-item">CSS</li>
+              <li class="list-item">Javascript</li>
+              <li class="list-item">AngularJS</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Email Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Web Modal End-->
+
+    <!-- DB Modal -->
+    <div class="modal fade" id="dbModal" tabindex="-1" role="dialog" aria-labelledby="dbModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dbModalLabel">Databases</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> Data storage is an important way to keep track of all your customers' records. We can setup databases and help you manage your data. We can also help migrate your data because it exists on a outdated platform.<br><br>We support the following types of database platforms.</p>
+            <ul class="list">
+              <li class="list-item">Postgres SQL</li>
+              <li class="list-item">MySQL</li>
+              <li class="list-item">MSSQL</li>
+              <li class="list-item">Oracle</li>
+              <li class="list-item">Access</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Email Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DB Modal End -->
+
+    <!-- App Modal -->
+    <div class="modal fade" id="appModal" tabindex="-1" role="dialog" aria-labelledby="appModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="appModalLabel">Applications</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> Take your user reach to a whole other level by giving them a mobile app experience.  You can engage your customers in a different way and make sure that they have access to your content any where they go.<br><br>We can deploy your app on multiple platforms such as iOS, Andriod, and Windows so that you have a broader reach.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Email Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- App Modal End -->
+
+    <!-- Consulting Modal -->
+    <div class="modal fade" id="consultModal" tabindex="-1" role="dialog" aria-labelledby="consultModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="consultModalLabel">Consulting</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> We're here to help you and your team come up with solutions to you all your tech needs. It doesn't matter how small or large the project is, we can help. Let us help with our extensive experience.</p>
+            
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <ul class="list">
+                  <li class="list-item">C</li>
+                  <li class="list-item">C++</li>
+                  <li class="list-item">Perl</li>
+                  <li class="list-item">Javascript</li>
+                  <li class="list-item">VB</li>
+                  <li class="list-item">VBA</li>
+                  <li class="list-item">VBScript</li>
+                  <li class="list-item">AngularJS</li>
+                </ul>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <ul class="list">
+                  <li class="list-item">PHP</li>
+                  <li class="list-item">MySQL</li>
+                  <li class="list-item">MSSQL</li>
+                  <li class="list-item">PostgresSQL</li>
+                  <li class="list-item">Networking</li>
+                  <li class="list-item">Linux</li>
+                  <li class="list-item">PLC Programming</li>
+                  <li class="list-item">Process Controls</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Email Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Consulting Modal End -->
+
+    <!-- Linux Modal -->
+    <div class="modal fade" id="linuxModal" tabindex="-1" role="dialog" aria-labelledby="linuxModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="linuxModalLabel">Linux</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> Need help with deploying a solution in Linux? We have experience creating embedded systems with the Linux platform so we can help you create your own custom solution for your business.</p>
+            <ul class="list">
+              <li class="list-item">Kernel Programming</li>
+              <li class="list-item">Hard Real Time Solutions/Testing</li>
+              <li class="list-item">Linux Server Setup</li>
+              <li class="list-item">Virtualization</li>
+              <li class="list-item">Customization</li>
+              <li class="list-item">General Training</li>
+              <li class="list-item">Installation and Support</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Email Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Linux Modal End -->
+
+    <!-- Affiliates Modal -->
+    <div class="modal fade" id="affiliatesModal" tabindex="-1" role="dialog" aria-labelledby="affilatesModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="affilatesModalLabel">Affiliates</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> Want to become affiliated with Sofistix? Email us at affiliates@sofistix.com</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Affiliates Modal End -->
+
+    <!-- Jobs Modal -->
+    <div class="modal fade" id="jobsModal" tabindex="-1" role="dialog" aria-labelledby="jobsModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="jobsModalLabel">Jobs</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> We currently have no new positions available.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jobs Modal End -->
+
+    <!-- Help Modal -->
+    <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="helpModalLabel">Help</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead> Need some help?  Contact us: support@sofistix.com</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Help Modal End -->
+
+    <!-- Newsletter Modal -->
+    <div class="modal fade" id="newsModal" tabindex="-1" role="dialog" aria-labelledby="newsletter" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="newsletterModal">Newsletter</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p lead>The newsletter sign up is currently down.  For all the latest news please revisit our site.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter Modal End -->
+
+    <!-- All Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      $("#navbarResponsive a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            window.location.hash = hash;
+          });
+        }  
+      });
+    });
+    </script>
+
+     <script>
+      var i = 0;
+      var txt = 'Welcome to Sofistix. We are currently looking for a few projects that we will work on for free. Contact us today and see if you qualify.';
+      var speed = 50;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+      </script>
+
+	    <script>
+	      function sendEmail() {
+	      	var input = document.getElementById('depSelect');
+	      	if (input.value == "Sales") {
+	      		email = "sales@mail.sofistix.com";
+	      		subject = "Sales";
+	      	}
+	      	else if (input.value == "Services"){
+	      		email = "services@mail.sofistix.com";
+	      		subject = "Services";
+	      	}
+	      	else if (input.value == "Support"){
+	      		email = "support@mail.sofistix.com";
+	      		subject = "Support";
+	      	}
+
+	      	var body = document.getElementById('msgBody');
+	      	var name = document.getElementById('userName');
+
+	        window.location.href = "mailto:" + email + "?subject=" + subject + "&body=" + "Hi my name is " + name.value + ",%0D%0D"+ body.value;
+	      }
+	    </script>
+      <!-- All Scripts End -->
+  </body>
+
+</html>

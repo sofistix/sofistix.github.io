@@ -1,0 +1,111 @@
+.headerBG {
+  background: linear-gradient(#6cf05b, #3ead2f);
+  height: 450px;
+  padding-top: 70px;
+}
+
+.header {
+  font-size: 350px;
+  opacity: .4
+}
+
+.spacing {
+	padding-top: 50px;
+}
+
+.sideSpacing{
+	padding-left: 100px;
+	padding-right: 100px
+}
+
+.serviceBotColSpacing {
+	margin-bottom: 20px;
+}
+
+.colSideSpacing {
+	padding-left: 50px;
+	padding-left: 50px
+}
+
+.portfolioBG {
+	background-color: #e9ecef;
+}
+
+.portInline {
+	padding-top: 5px;
+	padding-left: 30px;
+}
+
+.noPadding {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.list-group-item {
+	background-color: #f8f9fa;
+}
+
+.list-group-item.active {
+	background-color: #2ac416;
+    border-color: #2ac416;
+}
+
+.btn-primary {
+	background-color: #2ac416;
+    border-color: #2ac416;
+}
+
+.aboutUsPadding{
+	padding-top: 100px;
+}
+
+.contactTxtPadding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn-link {
+	color: #2ac416;
+}
+
+.jumbotron {
+	background-color: #f8f9fa;
+}
+
+.codeLogo {
+	float: right;
+    width: 700px;
+}
+
+.sofistixLogo {
+	width: 100px;
+}
+
+.headerTxt {
+  display: inline-block;
+  width: 75%;
+  opacity: .5;
+  font-family: "Cairo";
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 2px;  
+  text-align: left;
+  padding-top: 50px;
+}
+
+.portfolioContent {
+	height: 700px;
+	margin-top: 30px;
+}
+
+.serverStatusImg {
+	width: 100%;
+}
+
+a {
+    color: #2ac416;
+}
