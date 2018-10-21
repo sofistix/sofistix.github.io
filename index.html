@@ -68,7 +68,7 @@
   	<div class="container-fluid headerBG" id="home">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-  	       <p class="lead headerTxt" id="demo"></p>
+  	       <h1><p class="lead headerTxt" id="head"></p></h1>
         </div>
         <div class="d-none d-md-block col-md-4 col-lg-4 col-xl-4">
            <img class="codeLogo" src="imgs/comp.png">
@@ -79,7 +79,7 @@
     <div class="container-fluid">
       <div class="row jumbotron">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-         <h1 class="lead">Sophisticated solutions for all your software, web, database, and tech needs.</h1>
+         <p class="lead">Sophisticated solutions for all your software, web, database, and tech needs.</p>
         </div>
       </div>
     </div>
@@ -713,7 +713,7 @@
 
       function typeWriter() {
         if (i < txt.length) {
-          document.getElementById("demo").innerHTML += txt.charAt(i);
+          document.getElementById("head").innerHTML += txt.charAt(i);
           i++;
           setTimeout(typeWriter, speed);
         }
